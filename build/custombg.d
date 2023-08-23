@@ -34,7 +34,11 @@ custombg.o: /home/samyytids/game-dev/butano/games/myGame/src/custombg.cpp \
  /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h \
  /home/samyytids/game-dev/butano/butano/include/bn_fixed_point.h \
  /home/samyytids/game-dev/butano/butano/include/bn_point.h \
- /home/samyytids/game-dev/butano/butano/include/bn_size.h
+ /home/samyytids/game-dev/butano/butano/include/bn_size.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_log.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_config_log.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_log_backend.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_array.h
 /home/samyytids/game-dev/butano/games/myGame/include/custombg.h:
 /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_ptr.h:
 /home/samyytids/game-dev/butano/butano/include/bn_fixed.h:
@@ -71,3 +75,7 @@ custombg.o: /home/samyytids/game-dev/butano/games/myGame/src/custombg.cpp \
 /home/samyytids/game-dev/butano/butano/include/bn_fixed_point.h:
 /home/samyytids/game-dev/butano/butano/include/bn_point.h:
 /home/samyytids/game-dev/butano/butano/include/bn_size.h:
+/home/samyytids/game-dev/butano/butano/include/bn_log.h:
+/home/samyytids/game-dev/butano/butano/include/bn_config_log.h:
+/home/samyytids/game-dev/butano/butano/include/bn_log_backend.h:
+/home/samyytids/game-dev/butano/butano/include/bn_array.h:

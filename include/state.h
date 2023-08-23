@@ -25,7 +25,8 @@ namespace gm
         UP,
         DOWN,
         LEFT, 
-        RIGHT
+        RIGHT,
+        END
     };
 
     class StateMachine

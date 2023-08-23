@@ -10,6 +10,8 @@
 #include "bn_affine_bg_map_cell.h"
 #include "bn_fixed_point.h"
 #include "bn_size.h"
+#include "bn_log.h"
+#include "bn_array.h"
 
 namespace gm
 {
@@ -21,12 +23,16 @@ namespace gm
             MapTiles _map_tiles;
             bn::camera_ptr _camera;
             int _map_size;
+            int co_ordinate_grid[32][32];
+
 
         public:
             CustomBg(bn::affine_bg_ptr bg_ptr, bn::camera_ptr camera);
             bn::vector<int,32> GetEncounterTiles();
             bn::vector<int,32> GetCollisionTiles();
-            int GetMapCellTileIndex(const bn::fixed_point* location);
+            int GetMapCellTileIndex(const bn::fixed_point* collision_position);
+            bool CheckCoordinateGrid(const bn::fixed_point* collision_position, const bn::fixed_point* current_position);
+            void SetUpCoordinateGrid(bn::array<bn::fixed_point, 32>* entity_positions);
     };
 }
 

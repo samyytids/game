@@ -13,6 +13,10 @@ namespace gm
         return true;
     }
 
+    bool Hitbox::CheckForOtherHitboxes(const bn::fixed_point* collision_position, const bn::fixed_point* current_position, CustomBg* bg) {
+        return bg->CheckCoordinateGrid(collision_position, current_position);
+    }
+    
     bn::fixed_point Hitbox::GetPosition() const {
         return _position;
     }

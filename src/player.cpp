@@ -78,7 +78,7 @@ namespace gm
         _camera.set_position(spawn_location);
         _position.set_x(spawn_location.x());
         _position.set_y(spawn_location.y());
-        _hitbox->SetPosition(spaw_location);
+        _hitbox->SetPosition(spawn_location);
     }
 
     void Player::CheckMovement(){
@@ -121,7 +121,6 @@ namespace gm
     }
 
     void Player::CheckForTurning() {
-        BN_LOG("You spin me right round", _state_machine->GetPlayerDirection(), ", ",_state_machine->GetPlayerState());
         if ((bn::keypad::up_pressed() && _state_machine->GetPlayerDirection() != Direction::UP) || (_state_machine->GetPlayerState() == State::TURNING && _state_machine->GetPlayerDirection() == Direction::UP)){
             HandleTurning(Direction::UP);
             return;
@@ -323,17 +322,13 @@ namespace gm
                 }
                 break;
             case Direction::LEFT:
-                BN_LOG("Left animation fix");
                 if (_run_animation.graphics_indexes() != bn::create_sprite_animate_action_forever(_sprite, 8, _sprite_tiles, 8, 7).graphics_indexes() || _sprite.horizontal_flip()) {
-                    BN_LOG("Left animation fix 2");
                     _run_animation = bn::create_sprite_animate_action_forever(_sprite, 8, _sprite_tiles, 8, 7);
                     _sprite.set_horizontal_flip(false);
                 }
                 break;
             case Direction::RIGHT:
-                BN_LOG("Right animation fix");
                 if (_run_animation.graphics_indexes() != bn::create_sprite_animate_action_forever(_sprite, 8, _sprite_tiles, 8, 7).graphics_indexes() || !_sprite.horizontal_flip()){
-                    BN_LOG("Right animation fix 2");
                     _run_animation = bn::create_sprite_animate_action_forever(_sprite, 8, _sprite_tiles, 8, 7);
                     _sprite.set_horizontal_flip(true);
                 }
@@ -406,19 +401,19 @@ namespace gm
         switch(direction){
             case Direction::UP:
                 collision_position = bn::fixed_point(_position.x(), _position.y()-16);
-                return _hitbox->CheckAdjacentTile(&collision_position, _bg);
+                return _hitbox->CheckAdjacentTile(&collision_position, _bg) && _hitbox->CheckForOtherHitboxes(&collision_position, &_position, _bg);
                 
             case Direction::DOWN:
                 collision_position = bn::fixed_point(_position.x(), _position.y()+16);
-                return _hitbox->CheckAdjacentTile(&collision_position, _bg);
+                return _hitbox->CheckAdjacentTile(&collision_position, _bg) && _hitbox->CheckForOtherHitboxes(&collision_position, &_position, _bg);
                 
             case Direction::LEFT:
                 collision_position = bn::fixed_point(_position.x()-16, _position.y());
-                return _hitbox->CheckAdjacentTile(&collision_position, _bg);
+                return _hitbox->CheckAdjacentTile(&collision_position, _bg) && _hitbox->CheckForOtherHitboxes(&collision_position, &_position, _bg);
                 
             case Direction::RIGHT:
                 collision_position = bn::fixed_point(_position.x()+16, _position.y());
-                return _hitbox->CheckAdjacentTile(&collision_position, _bg);
+                return _hitbox->CheckAdjacentTile(&collision_position, _bg) && _hitbox->CheckForOtherHitboxes(&collision_position, &_position, _bg);
                 
             default:
                 BN_LOG("Reset sprite has bugged");

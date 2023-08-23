@@ -41,7 +41,20 @@ npc.o: /home/samyytids/game-dev/butano/games/myGame/src/npc.cpp \
  /home/samyytids/game-dev/butano/butano/include/bn_bpp_mode.h \
  /home/samyytids/game-dev/butano/butano/include/bn_compression_type.h \
  /home/samyytids/game-dev/butano/butano/include/bn_sprite_animate_actions_fwd.h \
- /home/samyytids/game-dev/butano/butano/include/bn_sprite_tiles_item.h
+ /home/samyytids/game-dev/butano/butano/include/bn_sprite_tiles_item.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_fixed_point.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_point.h \
+ /home/samyytids/game-dev/butano/games/myGame/include/state.h \
+ /home/samyytids/game-dev/butano/games/myGame/include/hitbox.h \
+ /home/samyytids/game-dev/butano/games/myGame/include/custombg.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_ptr.h \
+ /home/samyytids/game-dev/butano/games/myGame/include/maptiles.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_vector.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_span.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_ptr.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_size.h
 /home/samyytids/game-dev/butano/games/myGame/include/npc.h:
 /home/samyytids/game-dev/butano/butano/include/bn_optional.h:
 /home/samyytids/game-dev/butano/butano/include/bn_assert.h:
@@ -85,3 +98,16 @@ npc.o: /home/samyytids/game-dev/butano/games/myGame/src/npc.cpp \
 /home/samyytids/game-dev/butano/butano/include/bn_compression_type.h:
 /home/samyytids/game-dev/butano/butano/include/bn_sprite_animate_actions_fwd.h:
 /home/samyytids/game-dev/butano/butano/include/bn_sprite_tiles_item.h:
+/home/samyytids/game-dev/butano/butano/include/bn_fixed_point.h:
+/home/samyytids/game-dev/butano/butano/include/bn_point.h:
+/home/samyytids/game-dev/butano/games/myGame/include/state.h:
+/home/samyytids/game-dev/butano/games/myGame/include/hitbox.h:
+/home/samyytids/game-dev/butano/games/myGame/include/custombg.h:
+/home/samyytids/game-dev/butano/butano/include/bn_affine_bg_ptr.h:
+/home/samyytids/game-dev/butano/games/myGame/include/maptiles.h:
+/home/samyytids/game-dev/butano/butano/include/bn_vector.h:
+/home/samyytids/game-dev/butano/butano/include/bn_span.h:
+/home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h:
+/home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_ptr.h:
+/home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h:
+/home/samyytids/game-dev/butano/butano/include/bn_size.h:

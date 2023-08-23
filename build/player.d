@@ -55,7 +55,8 @@ player.o: /home/samyytids/game-dev/butano/games/myGame/src/player.cpp \
  /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h \
  /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_ptr.h \
  /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h \
- /home/samyytids/game-dev/butano/butano/include/bn_size.h
+ /home/samyytids/game-dev/butano/butano/include/bn_size.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_array.h
 /home/samyytids/game-dev/butano/games/myGame/include/player.h:
 /home/samyytids/game-dev/butano/games/myGame/include/state.h:
 /home/samyytids/game-dev/butano/butano/include/bn_log.h:
@@ -113,3 +114,4 @@ player.o: /home/samyytids/game-dev/butano/games/myGame/src/player.cpp \
 /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_ptr.h:
 /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h:
 /home/samyytids/game-dev/butano/butano/include/bn_size.h:
+/home/samyytids/game-dev/butano/butano/include/bn_array.h:

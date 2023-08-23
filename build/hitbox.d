@@ -36,7 +36,11 @@ hitbox.o: /home/samyytids/game-dev/butano/games/myGame/src/hitbox.cpp \
  /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_ptr.h \
  /home/samyytids/game-dev/butano/butano/include/bn_span.h \
  /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h \
- /home/samyytids/game-dev/butano/butano/include/bn_size.h
+ /home/samyytids/game-dev/butano/butano/include/bn_size.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_log.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_config_log.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_log_backend.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_array.h
 /home/samyytids/game-dev/butano/games/myGame/include/hitbox.h:
 /home/samyytids/game-dev/butano/butano/include/bn_fixed_point.h:
 /home/samyytids/game-dev/butano/butano/include/bn_fixed.h:
@@ -75,3 +79,7 @@ hitbox.o: /home/samyytids/game-dev/butano/games/myGame/src/hitbox.cpp \
 /home/samyytids/game-dev/butano/butano/include/bn_span.h:
 /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h:
 /home/samyytids/game-dev/butano/butano/include/bn_size.h:
+/home/samyytids/game-dev/butano/butano/include/bn_log.h:
+/home/samyytids/game-dev/butano/butano/include/bn_config_log.h:
+/home/samyytids/game-dev/butano/butano/include/bn_log_backend.h:
+/home/samyytids/game-dev/butano/butano/include/bn_array.h:

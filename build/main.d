@@ -62,13 +62,13 @@ main.o: /home/samyytids/game-dev/butano/games/myGame/src/main.cpp \
  /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_ptr.h \
  /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h \
  /home/samyytids/game-dev/butano/butano/include/bn_size.h \
+ /home/samyytids/game-dev/butano/butano/include/bn_array.h \
  /home/samyytids/game-dev/butano/butano/include/bn_unordered_map.h \
  /home/samyytids/game-dev/butano/butano/include/bn_memory.h \
  /home/samyytids/game-dev/butano/butano/include/bn_unique_ptr.h \
  /home/samyytids/game-dev/butano/butano/include/bn_power_of_two.h \
  /home/samyytids/game-dev/butano/butano/include/bn_unordered_map_fwd.h \
  /home/samyytids/game-dev/butano/games/myGame/include/npc.h \
- /home/samyytids/game-dev/butano/butano/include/bn_array.h \
  /home/samyytids/game-dev/butano/butano/include/bn_string_view.h \
  /home/samyytids/game-dev/butano/games/myGame/build/bn_sprite_items_gooch.h \
  /home/samyytids/game-dev/butano/butano/include/bn_sprite_item.h \
@@ -81,6 +81,10 @@ main.o: /home/samyytids/game-dev/butano/games/myGame/src/main.cpp \
  /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_item.h \
  /home/samyytids/game-dev/butano/butano/include/bn_size.h \
  /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_tiles_item.h \
+ /home/samyytids/game-dev/butano/games/myGame/include/scene1.h \
+ /home/samyytids/game-dev/butano/games/myGame/include/scene.h \
+ /home/samyytids/game-dev/butano/games/myGame/include/player.h \
+ /home/samyytids/game-dev/butano/games/myGame/include/npc.h \
  /home/samyytids/game-dev/butano/games/myGame/include/custombg.h
 /home/samyytids/game-dev/butano/butano/include/bn_log.h:
 /home/samyytids/game-dev/butano/butano/include/bn_config_log.h:
@@ -145,13 +149,13 @@ main.o: /home/samyytids/game-dev/butano/games/myGame/src/main.cpp \
 /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_ptr.h:
 /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_cell.h:
 /home/samyytids/game-dev/butano/butano/include/bn_size.h:
+/home/samyytids/game-dev/butano/butano/include/bn_array.h:
 /home/samyytids/game-dev/butano/butano/include/bn_unordered_map.h:
 /home/samyytids/game-dev/butano/butano/include/bn_memory.h:
 /home/samyytids/game-dev/butano/butano/include/bn_unique_ptr.h:
 /home/samyytids/game-dev/butano/butano/include/bn_power_of_two.h:
 /home/samyytids/game-dev/butano/butano/include/bn_unordered_map_fwd.h:
 /home/samyytids/game-dev/butano/games/myGame/include/npc.h:
-/home/samyytids/game-dev/butano/butano/include/bn_array.h:
 /home/samyytids/game-dev/butano/butano/include/bn_string_view.h:
 /home/samyytids/game-dev/butano/games/myGame/build/bn_sprite_items_gooch.h:
 /home/samyytids/game-dev/butano/butano/include/bn_sprite_item.h:
@@ -164,4 +168,8 @@ main.o: /home/samyytids/game-dev/butano/games/myGame/src/main.cpp \
 /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_map_item.h:
 /home/samyytids/game-dev/butano/butano/include/bn_size.h:
 /home/samyytids/game-dev/butano/butano/include/bn_affine_bg_tiles_item.h:
+/home/samyytids/game-dev/butano/games/myGame/include/scene1.h:
+/home/samyytids/game-dev/butano/games/myGame/include/scene.h:
+/home/samyytids/game-dev/butano/games/myGame/include/player.h:
+/home/samyytids/game-dev/butano/games/myGame/include/npc.h:
 /home/samyytids/game-dev/butano/games/myGame/include/custombg.h:
